@@ -1,7 +1,7 @@
 ---Inspecting Data
 select * from [dbo].[sales_data_sample]
 
---CHecking unique values
+--Checking unique values
 select distinct status from [dbo].[sales_data_sample] --Nice one to plot
 select distinct year_id from [dbo].[sales_data_sample]
 select distinct PRODUCTLINE from [dbo].[sales_data_sample] ---Nice to plot
